@@ -1,0 +1,58 @@
+/* 1. Universal Selector (Applies to all elements) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+}
+
+/* 3. Styling a Heading (Using an ID Selector) */
+#main-heading {
+    color: #0066cc;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 3px solid #333;
+}
+
+/* 4. Styling an Image */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #0066cc;
+    border-radius: 10px;
+    width: 50%;
+}
+
+/* 5. Paragraph Styling (Using a Class Selector) */
+.paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 10px;
+    border-left: 5px solid #0066cc;
+}
+
+/* 6. Button Styling */
+.button {
+    display: block;
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #004999;
+}
